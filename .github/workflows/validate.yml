@@ -16,4 +16,4 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Validate guide and example
-        run: ./scripts/validate.sh
+        run: bash scripts/validate.sh
